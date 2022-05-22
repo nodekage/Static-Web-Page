@@ -1,0 +1,50 @@
+body {
+    background-color: aliceblue;
+}
+
+.nav1 {
+    text-align: end;
+    margin-top: 30px;
+}
+
+a {
+    text-decoration: none;
+    border: 1px solid antiquewhite;
+    border-radius: 4px;
+    background-color: antiquewhite;
+    padding: 5px ;
+}
+
+a:hover {
+    color: red;
+    border: 0.5px solid green;
+    border-radius: 4px;
+}
+
+h4 {
+    color: blue;
+}
+.div1 {
+    border: 1px solid antiquewhite;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    text-align: center;
+    width: 800px;
+    margin: auto;
+}
+
+input {
+    padding: 5px 5px;
+    border: 1.5px solid blue;
+}
+
+.b1 {
+    text-align: end;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 5px;
+}
+

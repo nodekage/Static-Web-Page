@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    background-color: aliceblue;
+}
+
+section > div {
+    border: 1px dotted green;
+    background-color: antiquewhite;
+    color: black;
+    padding: 20px 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+h4 {
+    text-align: center;
+}
+
+.img1 {
+    text-align: center;
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+}
+
+.div2{
+    text-align: center;
+}
+
+
+.div1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    margin-bottom: 450px;
+}
+
+.div2 , .div3 {
+    margin-top: -450px;
+    margin-bottom: 400px;
+}
+
+.div6 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+}
+
+.divj , .divh , .divc {
+    text-align: center;
+}
+
+.div4 {
+    grid-column-start: 1;
+
+}
+
+.div4 , .div5 {
+    margin-top: -400px;
+}
+
+.nav1 {
+    text-align: end;
+    margin-bottom: -10px;
+}
+
+.m1 {
+    padding: 20px 10px;
+}
+
+.e1 {
+    padding: 5px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid antiquewhite;
+    border-radius: 4px;
+    background-color: green;
+    padding: 5px ;
+}
+
+a:hover {
+    color: red;
+    border: 0.5px solid green;
+    border-radius: 4px;
+}
